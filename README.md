@@ -26,7 +26,7 @@ $ pytest test/unit
 The integration tests utilize Chalice's `LocalGateway` class, which is 
 used to create the event for an application when running locally. This allows you to 
 construct pretty simple tests that test the application from end to end. The code can
-be found [here](https://github.com/nplutt/chalice-test-examples/blob/master/test/integration/test_app.py)
+be found [here](https://github.com/nplutt/chalice-test-examples/blob/master/test/integration/test_app.py).
 
 #### Running Integration Tests
 ```bash
